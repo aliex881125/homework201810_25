@@ -3,39 +3,39 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-//        Scanner scn =new Scanner(System.in);
-//        int a = scn.nextInt();
-//        int b = scn.nextInt();
-//       if(a<b){
-//           if (a%2==0&&b%2==0){
-//               int result =0;
-//               for(int i =a;i<=b;i = i+2 ){
-//                   result = result+i;
-//               }
-//               System.out.println(result);
-//           }
-//           if (a%2==0&&b%2!=0){
-//               int result =0;
-//               for(int i =a;i<=b-1;i = i+2 ){
-//                   result = result+i;
-//               }
-//               System.out.println(result);
-//           }
-//           if (a%2!=0&&b%2==0){
-//               int result =0;
-//               for(int i =a+1;i<=b;i = i+2 ){
-//                   result = result+i;
-//               }
-//               System.out.println(result);
-//           }
-//           if (a%2!=0&&b%2!=0){
-//               int result =0;
-//               for(int i =a+1;i<=b-1;i = i+2 ){
-//                   result = result+i;
-//               }
-//               System.out.println(result);
-//           }
-//       }---------------------------------------------第四題
+        Scanner scn =new Scanner(System.in);
+        int a = scn.nextInt();
+        int b = scn.nextInt();
+       if(a<b){
+           if (a%2==0&&b%2==0){
+               int result =0;
+               for(int i =a;i<=b;i = i+2 ){
+                   result = result+i;
+               }
+               System.out.println(result);
+           }
+           if (a%2==0&&b%2!=0){
+               int result =0;
+               for(int i =a;i<=b-1;i = i+2 ){
+                   result = result+i;
+               }
+               System.out.println(result);
+           }
+           if (a%2!=0&&b%2==0){
+               int result =0;
+               for(int i =a+1;i<=b;i = i+2 ){
+                   result = result+i;
+               }
+               System.out.println(result);
+           }
+           if (a%2!=0&&b%2!=0){
+               int result =0;
+               for(int i =a+1;i<=b-1;i = i+2 ){
+                   result = result+i;
+               }
+               System.out.println(result);
+           }
+       }//---------------------------------------------第四題
 
 
 //        Scanner scn = new Scanner(System.in);
